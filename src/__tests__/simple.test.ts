@@ -6,6 +6,7 @@ import TransactionService from '@/services/TransactionService';
 
 
 describe('Banks', () => {
+
   it('has a bank class', () => {
     expect(Bank).toBeDefined();
   });
